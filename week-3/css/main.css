@@ -1,3 +1,31 @@
 body{
-    color:red
+    font-family:Arial, Helvetica, sans-serif;
+    color:tomato
+/* 
+This is the comment of CSS
+Short cut to add the comment is command + / 
+ */
+h1{
+    color:tomato;
+}
+
+p{
+    background-color:seagreen;
+}
+
+/* Selecting multiple elements */
+h1,
+h2,
+h3,
+{
+    text-decoration:underline;
+}
+/* Selecting child elements */
+nav ul{
+    list-style: none;
+}
+/* Selecting child elements multiple levels */
+nav ul{
+color:slategray;
+text-decoration:underline
 }
