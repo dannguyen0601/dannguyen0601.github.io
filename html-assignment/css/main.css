@@ -5,12 +5,13 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
+/* Change both the header and footer color */
 main header, footer {
     background-color: lightcoral;
 }
+/* Styling the navigation */
 nav ul{
     list-style: none ;
     background-color:tan; 
     text-decoration: none;
-    color:darkslategray;
 }
