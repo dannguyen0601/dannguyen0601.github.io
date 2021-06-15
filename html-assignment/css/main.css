@@ -8,6 +8,10 @@ body{
 main header, footer {
     background-color: lightcoral;
 }
+h3 p ul{
+    list-style: square;
+
 nav ul{
     list-style: none ;
+    background-color:tan; 
 }
