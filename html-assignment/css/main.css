@@ -12,4 +12,5 @@ main header, footer {
 nav ul{
     list-style: none ;
     background-color:tan; 
+    text-decoration: none;
 }
