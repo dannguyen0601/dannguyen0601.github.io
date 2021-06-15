@@ -8,3 +8,6 @@ body{
 header, footer {
     background-color: lightcoral;
 }
+nav ul{
+    list-style: none ;
+}
