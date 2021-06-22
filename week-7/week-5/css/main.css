@@ -33,6 +33,11 @@ h4{
 nav ul{
     list-style: none;
 }
+
+nav ul li{
+    display: inline-block;
+    width:50%;
+}
 /* Selecting child element multiple levels */
 nav ul a{
     color:dimgray
@@ -47,4 +52,14 @@ article{
     line-height:30px;
     text-transform:capitalize; 
     text-align: center;
+}
+
+/* CSS box model */
+section p{
+    width:50%;
+    /* Top-bottom-left-right */
+    padding:1em 5em;
+    /* Top-right-bottom-left */
+    margin:-1em 2em 2em 2em;
+    border-bottom: 2px solid black; 
 }
