@@ -67,11 +67,24 @@ section p{
     border-bottom: 2px solid black; 
 }
 
+/* Fixed navigation */
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:wheat;
+    z-index:999;
+}
+
+/* Fix nav overlap  */
+
+
 /* Example of float layout */
 article,
 aside{
     width:80%;
-    background-color:cornflowerblue;
+    background-color:whitesmoke;
     border: 1px solid black;
     padding: 1.5em;
     box-sizing:border-box;
@@ -87,7 +100,7 @@ section{
 /* Selecting element with id value */
 #treatofweek{
     /* color image repeat position-x position-y; */
-    background:chocolate url(../images/bread\ \(1\).jpeg) no-repeat center centerl;
+    background:chocolate url(../images/bread\ \(1\).jpeg) no-repeat center;
     background-size:cover;
 
     color:white;
