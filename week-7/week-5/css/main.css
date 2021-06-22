@@ -4,7 +4,7 @@ body{
 }
 body{
     /* Adding background image */
-    background-image:url(../images/DSCF6028\ 15.25.19.jpg);
+    background-image:url(../images/97cea7e15201dc807d266908c4d911b1.jpg);
 }
 .container{
     max-width: 1200px;
@@ -35,8 +35,11 @@ nav ul{
 }
 
 nav ul li{
-    display: inline-block;
-    width:50%;
+    background-color: coral;
+    display:inline-block;
+    width: 49%;
+    padding:1em;
+    box-sizing:border-box;
 }
 /* Selecting child element multiple levels */
 nav ul a{
@@ -62,4 +65,15 @@ section p{
     /* Top-right-bottom-left */
     margin:-1em 2em 2em 2em;
     border-bottom: 2px solid black; 
+}
+
+/* Example of float layout */
+article,
+aside{
+    width:80%;
+    background-color:cornflowerblue;
+    border: 1px solid black;
+    padding: 1.5em;
+    box-sizing:border-box;
+    float: left;
 }
