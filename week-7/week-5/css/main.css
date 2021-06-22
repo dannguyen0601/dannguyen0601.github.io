@@ -77,3 +77,9 @@ aside{
     box-sizing:border-box;
     float: left;
 }
+aside{
+    width:20%;
+}
+section{
+    clear:both;
+}
