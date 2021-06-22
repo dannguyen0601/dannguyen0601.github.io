@@ -38,3 +38,8 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:red;
 }
+
+/*Dropdown content (hidden  by default) */
+.dropdown-content{
+    display:none;
+    
