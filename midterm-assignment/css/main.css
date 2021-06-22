@@ -1,0 +1,12 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkslategrey;
+}
+.container{
+    max-width: 1200px;
+    /* Top-bottom-left-right */
+    margin:0 auto;
+}
+img{
+    width:100%;
+}
