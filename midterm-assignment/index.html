@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device width,initial scale=1" />
@@ -47,23 +46,27 @@
             </ul>
         </article>
         <!--Adding form-->
-        <p> Contact to learn more </p>
         <form>
-            <label> Your name</label>
-            <input type="text"/>
+            <p> Contact to learn more </p>
+            <fieldset> 
+                <label> Your name</label>
+                <input type="text"/>
             <br>
-            <label> Your email </label>
-            <input type="text"/>
+                <label> Your email </label>
+                <input type="text" />
             <br>
-            <label> Your message</label>
-            <input type="text" name="username" maxlength="300"/>
+                <label> Your message</label>
+                <textarea name="message" cols="40" rows="4" maxlength="200"></textarea>
+            <p>Would you like to visit the starfish?</p>
+            <br/>
+                <input id="yes" type="radio" name="choice" value="y" >Yes
+                <input id="no" type="radio" name="choice" value="n"> No
+                <input id="maybe" type="radio" name="choice" value="m">Maybe
+            <br>
+            <input type="submit" value="Send"/>
+            </fieldset>
         </form>
     </main>
-
-
-
-
-
+    <footer>©Lone Starfish.</footer>
 </body>
-
 </html>
