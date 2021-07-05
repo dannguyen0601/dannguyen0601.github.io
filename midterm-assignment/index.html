@@ -4,26 +4,29 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device width,initial scale=1" />
     <title> Lone Starfish</title>
-    <img src="images/lone-starfish-wide.jpg" alt="Starfish banner" />
     <link rel="stylesheet" href="css/main.css"/>
 </head>
 <br>
 
 <body>
-    <!--Input header-->
-    <h1>LONE STARFISH</h1>
-    <!--Navigation-->
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a> </li>
-            <li><a href="story.html">STORY</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    <!--Main content-->
-    <h2>Life of a starfish</h2>
+    <header>
+         <!--Input heading-->
+        <h1>LONE STARFISH</h1>
+        <!--Input image-->
+        <img src="images/lone-starfish-wide.jpg" alt="Starfish banner" />
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="story.html">STORY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <article>
+            <!--Input heading of article-->
+            <h2>Life of a starfish</h2>
             <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa
                 silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian
                 prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf
@@ -48,7 +51,7 @@
         </article>
         <!--Adding form-->
         <form>
-            <p> Contact to learn more </p>
+            <h2> Contact to learn more </h2>
             <fieldset> 
                 <label> Your name</label>
                 <input type="text"/>
@@ -58,13 +61,16 @@
             <br>
                 <label> Your message</label>
                 <textarea name="message" cols="40" rows="4" maxlength="200"></textarea>
-            <p>Would you like to visit the starfish?</p>
+            <h3>Would you like to visit the starfish?</h3>
             <br/>
-                <input id="yes" type="radio" name="choice" value="y" >Yes
-                <input id="no" type="radio" name="choice" value="n"> No
-                <input id="maybe" type="radio" name="choice" value="m">Maybe
+                <label for="yes">Yes</label>
+                <input id="yes" type="radio" name="choice">
+                <label for="no">No</label>
+                <input id="no" type="radio" name="choice"> 
+                <label for="maybe">Maybe</label>
+                <input id="maybe" type="radio" name="choice">
             <br>
-            <input type="submit" value="Send"/>
+                <button type="submit">Send</button>
             </fieldset>
         </form>
     </main>
