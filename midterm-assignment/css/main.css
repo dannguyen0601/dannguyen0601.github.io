@@ -123,12 +123,12 @@ nav li{
 }
 #home{
 	text-align: center;
-	padding-right: 60px;
+	padding-right: 40px;
 	border-right:1px solid black ;
 }
 #contact{
 	text-align:center;
-	padding-left: 60px;
+	padding-left: 40px;
 	border-left: 1px solid black;
 }
 #story{
