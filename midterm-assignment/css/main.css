@@ -48,6 +48,7 @@ table {
 }
 /* Center the content */
 .container{
+	max-width:1200px;
 	margin:0 auto;
 }
 /* Change the font and size of the tittle */
@@ -117,4 +118,5 @@ nav li{
 	font-size: 1em;
 	width: fit-content;
 	padding: 20px;
+
 }
