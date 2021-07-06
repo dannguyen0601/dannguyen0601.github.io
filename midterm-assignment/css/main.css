@@ -114,4 +114,7 @@ article{
 }
 nav li{
 	display:inline-block;
+	font-size: 1.5em;
+	width: fit-content;
+	padding: 20px;
 }
