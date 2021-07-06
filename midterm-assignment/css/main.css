@@ -96,6 +96,7 @@ article ul{
 	background:url(../images/lone-starfish-wide.jpg) no-repeat center center;
 	padding:30%;
 	text-align:center;
+	background-position:center;
 	background-size:cover;
 }
 /* Adding box model*/
