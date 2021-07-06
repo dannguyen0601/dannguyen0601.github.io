@@ -134,3 +134,12 @@ nav li{
 #story{
 	text-align:center;
 }
+form{
+	padding:20px;
+	width:100%;
+	border: 1px solid black;
+}
+/* Footer */
+footer{
+	text-align: right;
+}
