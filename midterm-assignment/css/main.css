@@ -143,3 +143,11 @@ form{
 footer{
 	text-align: right;
 }
+.content img{
+	width: 40%;
+	float:left;
+	margin-right: 1em;
+}
+h3{
+	margin-top: 2em;
+}
