@@ -60,7 +60,7 @@ h1{
 /* Style navigations */
 nav ul{
 	list-style:none;
-	
+	text-decoration:none;
 }
 nav ul a{
 	color:#000;
