@@ -105,7 +105,6 @@ form{
 	width:fit-content;
 	height:fit-content;
 	padding:20px;
-	border:2px #000;
 	margin: 20px;
 }
 article{
@@ -119,5 +118,4 @@ nav li{
 	font-size: 1em;
 	width: fit-content;
 	padding: 20px;
-
 }
