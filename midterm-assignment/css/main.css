@@ -89,9 +89,9 @@ article ul{
 /* Set width and border for the form */
 /* Background-image */
 #banner{
-	background:url(../images/lone-starfish-wide.jpg); no-repeat center center;
+	background:url(../images/lone-starfish-wide.jpg) no-repeat center center;
 	padding:30%;
 	text-align:center;
 	background-size:cover;
 }
-/* Adding border for the form */
+/* Adding box model*/
