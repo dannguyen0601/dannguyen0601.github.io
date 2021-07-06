@@ -151,3 +151,12 @@ footer{
 h3{
 	margin-top: 2em;
 }
+#name{
+	width:100%;
+}
+#email{
+	width:100%;
+}
+#message{
+	width:100%;
+}
