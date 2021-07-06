@@ -113,16 +113,24 @@ article{
 	padding:20px;
 	margin: 20px;
 }
+/* Styling navigation */
 nav li{
 	display:inline-block;
 	font-size: 1em;
 	width: fit-content;
 	padding: 20px;
-	margin:1em 8em 1em 8em;
+	margin:1em 7em 1em 7em;
 }
 #home{
-	border-right: 4px #000;
+	text-align: center;
+	padding-right: 60px;
+	border-right:1px solid black ;
+}
+#contact{
+	text-align:center;
+	padding-left: 60px;
+	border-left: 1px solid black;
 }
 #story{
-	border-right:3px #000;
+	text-align:center;
 }
