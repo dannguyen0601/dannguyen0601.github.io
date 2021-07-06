@@ -90,7 +90,7 @@ article ul{
 /* Background-image */
 #banner{
 	background:url(../images/lone-starfish-wide.jpg); no-repeat center center;
-	padding:10%;
+	padding:30%;
 	text-align:center;
 	background-size:cover;
 }
