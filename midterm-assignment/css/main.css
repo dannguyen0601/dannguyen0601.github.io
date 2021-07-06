@@ -46,6 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Center the content */
+.container{
+	margin:0 auto;
+}
 /* Change the font and size of the tittle */
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -92,10 +96,16 @@ article ul{
 	background:url(../images/lone-starfish-wide.jpg) no-repeat center center;
 	padding:30%;
 	text-align:center;
-	background-size:cover;
+	width:100%;
 }
 /* Adding box model*/
 form{
+	width:fit-content;
+	height:fit-content;
+	padding:20px;
+	margin: 20px;
+}
+article{
 	width:fit-content;
 	height:fit-content;
 	padding:20px;
