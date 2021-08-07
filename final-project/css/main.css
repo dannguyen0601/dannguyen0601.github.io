@@ -47,4 +47,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ---------------------------------
+            Custom Styles
+-----------------------------------*/
+
+body{
+    line-height:1.5;
+}
+*,
+*:after,
+*:before{
+    box-sizing:inherit;
+    line-height:inherit;
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* Styling the navigation */
+.ul{
+	background-color:#222 ;
+	text-align: center;
+	line-height: 3em;
+}
+
 
