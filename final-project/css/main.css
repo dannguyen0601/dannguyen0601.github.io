@@ -66,11 +66,17 @@ body{
     clear:both;
 }
 
+/* Define font */
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
 /* Styling the navigation */
 .ul{
 	background-color:#222 ;
 	text-align: center;
 	line-height: 3em;
 }
-
-
+.ul li{
+	text-decoration: none;
+}
