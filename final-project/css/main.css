@@ -77,6 +77,33 @@ font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	line-height: 3em;
 }
-.ul li{
+.ul a {
 	text-decoration: none;
+	color:#c78c06;
 }
+.searchbar{
+	width: 80%;
+	height: 2.5em;
+}
+.ul button{
+	background-color:#222;
+	color:#c78c06;
+	height: 2.5em;
+	text-align: center;
+	border: 1px solid #c78c06;
+	margin-left: 0;
+}
+#logo{
+	display:block;
+}
+ul li:nth-child(1){
+	background-color: #c78c06;
+}
+/* Hover */
+ul a:hover,
+ul a:focus{
+	display: block;
+	background-color:#c78c06;
+	color:#222;
+}
+
