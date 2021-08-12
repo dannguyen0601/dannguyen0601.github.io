@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 /* ---------------------------------
-            Custom Styles
+            Mobile Styles
 -----------------------------------*/
 
 body{
@@ -59,6 +59,9 @@ body{
 *:before{
     box-sizing:inherit;
     line-height:inherit;
+}
+img{
+	width:100%;
 }
 .clearfix:after{
     content:'';
@@ -94,6 +97,7 @@ font-family: 'Open Sans', sans-serif;
 }
 #logo{
 	display:block;
+	width:20%;
 }
 ul li:nth-child(1){
 	background-color: #c78c06;
@@ -107,10 +111,16 @@ ul a:focus{
 }
 
 /* Styling banner */
-.banner{
+#home{
 	background-image: url("../images/main-banner.jpg");
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.banner{
 	background-size:cover;
 	background-repeat: no-repeat;
+	background-color:rgba(34, 34, 34, 0.461);
+	padding-bottom: 30px;
 }
 h1{
 	font-size: 3em;
@@ -123,6 +133,7 @@ h1{
 	font-size: 12px;
 	padding: 20px;
 	padding-bottom: 40px;
+	padding-top: 40px;
 }
 /* Styling connect us box */
 .banner a{
@@ -132,7 +143,7 @@ h1{
 	font-size:smaller;
 	text-align: center;
 	padding: 20px;
-	padding-bottom: 40px;
+	margin-left: 20px;
 }
 /* Styling about us */
 .aboutcontent{
@@ -150,7 +161,6 @@ h1{
 	color:#222;
 	padding-bottom:10px
 }
-/* Style of the img */
 
 /* Styling Our Services */
 .servicecontent h2{
@@ -169,6 +179,7 @@ h1{
 	margin-left:10px;
 	background-color:#ffe6ac;
 	background-size: cover;
+	padding-bottom: 40px;
 }
 .digital h3{
 	font-size: 20px;
@@ -182,11 +193,14 @@ h1{
 	font-size: 12px;
 	padding-left: 10px;
 	margin-top: 15px;
+	padding-bottom: 20px;
 }
 .digital a{
 	background-color: #222;
 	text-decoration: none;
 	color: white;
+	margin-left:10px;
+	margin-top: 20px;
 	padding-left:10px;
 	padding: 20px;
 }
@@ -431,6 +445,11 @@ h1{
 	background-color: #222;
 	border:1px solid #c78c06;
 	margin-top: 15px;
+	font-size:medium;
+}
+input,textarea{
+	display: block;
+	width: 95%;
 }
 /* Styling Hours Operation */
 .hours h3{
@@ -440,9 +459,19 @@ h1{
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
-.hours table{
+table  th,
+table td{
 	border: 1px solid #222;
+}
+.hours table{
 	margin-left: 20px;
+	width: 90%;
+}
+table  th{
+	align-items: center;
+	background-color: #ffe6ac;
+	font-size: small;
+	padding: 15px;
 }
 
 /* Styling location */
@@ -467,8 +496,15 @@ h1{
 	color:#c78c06;
 	margin-top: 20px;
 }
+.footer-content thead{
+	background-color: #ffe6ac;
+}
 .footer-content a{
 	background-color:#222;
 	color:#c78c06;
 	margin-top: 20px;
 }
+
+/* ---------------------------------
+           Desktop Styles
+-----------------------------------*/
