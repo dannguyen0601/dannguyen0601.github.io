@@ -161,13 +161,14 @@ h1{
 	padding-top: 15px;
 	padding-left: 20px;
 }
+/* Digital transformation part */
 .digital{
 	font-size: 12px;
 	color:#222;
 	margin-bottom: 10px;
 	margin-left:10px;
-	padding-top: 15px;
 	background-color:#ffe6ac;
+	background-size: cover;
 }
 .digital h3{
 	font-size: 20px;
@@ -188,4 +189,235 @@ h1{
 	color: white;
 	padding-left:10px;
 	padding: 20px;
+}
+/* Marketing part */
+.marketing{
+	font-size: 12px;
+	color:#222;
+	margin-bottom: 10px;
+	margin-left:10px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+.marketing h3{
+	font-size: 20px;
+	font-weight:bolder; 
+	color:#222;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.marketing p{
+	font-size: 12px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.marketing a{
+	background-color: #222;
+	text-decoration: none;
+	color: white;
+	padding-left:10px;
+	padding: 20px;
+}
+
+/* Video part */
+.video{
+	font-size: 12px;
+	color:#222;
+	margin-bottom: 10px;
+	margin-left:10px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+.video h3{
+	font-size: 20px;
+	font-weight:bolder; 
+	color:#222;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.video p{
+	font-size: 12px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.video a{
+	background-color: #222;
+	text-decoration: none;
+	color: white;
+	padding-left:10px;
+	padding: 20px;
+}
+
+/* Web part */
+.web{
+	font-size: 12px;
+	color:#222;
+	margin-bottom: 10px;
+	margin-left:10px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+.web h3{
+	font-size: 20px;
+	font-weight:bolder; 
+	color:#222;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.web p{
+	font-size: 12px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.web a{
+	background-color: #222;
+	text-decoration: none;
+	color: white;
+	padding-left:10px;
+	padding: 20px;
+}
+
+/* Print part */
+.print{
+	font-size: 12px;
+	color:#222;
+	margin-bottom: 10px;
+	margin-left:10px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+.print h3{
+	font-size: 20px;
+	font-weight:bolder; 
+	color:#222;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.print p{
+	font-size: 12px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+.print a{
+	background-color: #222;
+	text-decoration: none;
+	color: white;
+	padding-left:10px;
+	padding: 20px;
+}
+
+/* Styling Our Vision */
+.visioncontent{
+	background-image: url("../images/vision.jpg");
+	background-size:cover;
+	margin-bottom: 10px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+.visioncontent h2{
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.visioncontent p{
+	color: whitesmoke;
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.visioncontent a {
+	background-color: #222;
+	opacity: 0.8;
+	text-decoration: none;
+	color: white;
+	padding-left:10px;
+	padding: 20px;
+	border:1px solid #c78c06;
+}
+/* Styling Our Team */
+.teamcontent h2{
+	color:#222;	
+	font-size: 25px;
+	font-weight:bolder; 
+	color:#222;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.team1 h3{
+	color:#222;
+	font-size: 18px;
+	font-weight: bolder;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.team1 h4{
+	color:#222;
+	font-size: 12px;
+	font-weight: bolder;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+ .team1 p{
+	color:#222;
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin-left: 17px;
+}
+.team1{
+	font-size: 12px;
+	color:#222;
+	margin-left:10px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+
+.team2 h3{
+	color:#222;
+	font-size: 18px;
+	font-weight: bolder;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.team2 h4{
+	color:#222;
+	font-size: 12px;
+	font-weight: bolder;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+ .team2 p{
+	color:#222;
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin-left: 17px;
+}
+.team2{
+	font-size: 12px;
+	color:#222;
+	margin-left:10px;
+	margin-top: 15px;
+	margin-bottom: 60px;
+	background-color:#ffe6ac;
+	background-size: cover;
+}
+/* Styling Contact us */
+.contactcontent h2{
+	font-size: 30px;
+	font-weight: bolder;
+	padding-left:20px;
+}
+.message h3{
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 20px;
 }
