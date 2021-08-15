@@ -543,3 +543,82 @@ table td{
 /* ---------------------------------
            Desktop Styles
 -----------------------------------*/
+@media screen and (min-width: 760px){
+/* Styling Navigation */
+.ul{
+	margin: 0 auto;
+}
+.ul li{
+	display:inline-block;
+	font-size: 15px;
+	margin-left: 70px;
+	}
+/* Hover */
+ul a:hover,
+ul a:focus{
+	background-color:#c78c06;
+	width: 120px;
+	height: 40px;
+	padding-bottom: 5px;
+	color:#222;
+	text-align: center;
+}
+/* Logo */
+#logo{
+	width: 70%;
+}
+ul li:nth-child(1){
+	background-color: #222;
+	padding: 20px 0 0 0;
+}
+.searchbar{
+	width: 65%;
+}
+
+/* Styling banner */
+#home{
+	background-image: url("../images/main-banner.jpg") no-repeat;
+	padding: 20px 40px 20px 40px;
+	background-size:cover;
+	background-position: center;
+}
+.banner{
+	margin: 10px 0 10px 0;
+}
+/* Styling About us using Flex */
+.aboutcontent{
+	display: flex;
+}
+.aboutcontent img{
+	width: 50%;
+	padding: 10px 20px 10px 20px;
+}
+.aboutcontent h2{
+	font-size: 50px;
+}
+/* Styling Our Service using grid*/
+.servicecontent h2{
+	font-size: 50px;
+	padding-left: 35px;
+}
+/* Styling Our Vision */
+.visioncontent h2{
+	font-size: 50px;
+	padding-left: 35px;
+}
+.visioncontent p{
+	font-size: 15px;
+	padding-left: 35px;
+}
+.visioncontent a{
+	margin-left:40px;
+}
+/* Styling our team using Grid */
+.teamcontent h2{
+	font-size: 50px;
+	padding-left: 35px;
+}
+
+
+
+}
