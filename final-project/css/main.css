@@ -596,11 +596,19 @@ ul li:nth-child(1){
 .aboutcontent h2{
 	font-size: 50px;
 }
+.aboutcontent p{
+	padding-right: 20px;
+}
 /* Styling Our Service using grid*/
 .servicecontent h2{
 	font-size: 50px;
 	padding-left: 35px;
 }
+
+
+
+
+
 /* Styling Our Vision */
 .visioncontent h2{
 	font-size: 50px;
@@ -609,6 +617,7 @@ ul li:nth-child(1){
 .visioncontent p{
 	font-size: 15px;
 	padding-left: 35px;
+	padding-right: 35px;
 }
 .visioncontent a{
 	margin-left:40px;
@@ -618,7 +627,10 @@ ul li:nth-child(1){
 	font-size: 50px;
 	padding-left: 35px;
 }
-
-
+/* Styling Contact us location and hours */
+/* Styling footer */
+.footer-content{
+	padding-left: 40px;
+}
 
 }
