@@ -132,7 +132,7 @@ ul a:focus{
 }
 h1{
 	font-size: 3em;
-	font-weight: 1000;
+	font-weight: bolder;
 	color:white;
 	padding-left: 20px;
 }
@@ -609,7 +609,7 @@ footer a{
 	}
 	/* Styling banner */
 	#home{
-		background-image: url("../images/main-banner.jpg") no-repeat;
+		background-image: url("../images/main-banner.jpg");
 		padding: 20px 40px 20px 40px;
 		background-size:cover;
 		background-position: center;
