@@ -680,6 +680,8 @@ footer a{
 		display: block;
 		margin-right: 10px;
 		text-align: center;
+		align-self: stretch;
+		align-items: stretch;
 	}
 
 	/* Styling Our Vision */
